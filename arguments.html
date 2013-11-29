@@ -6,9 +6,29 @@
         function test()
         {
             alert(arguments.length);
-            test(arguments.selfvalue);
+            test(arguments[0]);
         }
-        test(1,2,3,4);
+//        test(1,2,3,4);
+
+        function callerDemo()
+        {
+            alert(callerDemo.caller)
+            if(callerDemo.caller)
+            {
+                var a = callerDemo.caller.toString();
+                alert(a);
+            }
+            else
+            {
+                alert("this is a top function")
+            }
+        }
+//        callerDemo();
+        function handleCaller()
+        {
+            callerDemo();
+        }
+//        handleCaller();
     </script>
 </head>
 <body>

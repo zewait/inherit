@@ -3,22 +3,43 @@
 <head>
     <title></title>
     <script type="text/javascript">
-        function Father(msg)
+        function Father()
         {
-            this.msg = msg;
             this.showMsg = function()
             {
-                    alert(arguments.callee);
+                alert("Father showMsg()");
             }
         }
 
-        function Son() {};
+        Father.prototype.showMsg2 = function()
+        {
+            alert("Father showMsg2()");
+        }
 
-        var father = new Father("msg");
-        Son.prototype = father;
+        //定义Son
+        function Son()
+        {
+            this.showMsg = function()
+            {
+                //调用父类方法
+                Object.getPrototypeOf(this).showMsg();
+                alert("Son showMsg()");
+            }
+        };
+
+        var father = new Father();
+        Son.prototype = father;//原形继承
+        //不能在Son.prototype = father;之前,如果在Son.prototype = father;之前Father的prototype会覆盖Son.prototype全部
+        Son.prototype.showMsg2 = function()
+        {
+            Object.getPrototypeOf(this).showMsg2();
+            //会调用两次,因为上面是Object.getPrototypeOf(this)获取原形再调用,而showMsg2是原形的方法
+            alert("Son showMsg2()");
+        }
+
         var son = new Son();
         son.showMsg();
-
+        son.showMsg2();
 
     </script>
 </head>

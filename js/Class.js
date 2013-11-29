@@ -62,6 +62,7 @@ Class.extend = function(prop)
     Class.prototype.constructor = Class;
     //设置当前运行的函数给变量(extend不是已经定义了吗?因为上面设置过prototype覆盖了方法)
     Class.extend = arguments.callee;
+    alert(arguments.callee);
 
     return Class;
 }

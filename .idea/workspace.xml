@@ -23,10 +23,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="arguments.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Class.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/Class.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="0" selection-start="1059" selection-end="1059" vertical-scroll-proportion="0.0" vertical-offset="542" max-vertical-offset="1444">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="constructor.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/constructor.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="7" selection-start="439" selection-end="439" vertical-scroll-proportion="-14.928572" vertical-offset="0" max-vertical-offset="532">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="arguments.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arguments.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="36" selection-start="193" selection-end="193" vertical-scroll-proportion="0.24242425" vertical-offset="0" max-vertical-offset="627">
+            <state line="18" column="25" selection-start="429" selection-end="429" vertical-scroll-proportion="-10.178572" vertical-offset="57" max-vertical-offset="798">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prototype.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/prototype.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="23" selection-start="1077" selection-end="1077" vertical-scroll-proportion="0.63809526" vertical-offset="444" max-vertical-offset="1026">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inherit.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inherit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="0" selection-start="1060" selection-end="1060" vertical-scroll-proportion="-17.285715" vertical-offset="390" max-vertical-offset="1102">
               <folding />
             </state>
           </provider>
@@ -42,20 +78,20 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/constructor.html" />
         <option value="$PROJECT_DIR$/readme.txt" />
         <option value="$PROJECT_DIR$/inherit.html" />
-        <option value="$PROJECT_DIR$/prototype.html" />
-        <option value="$PROJECT_DIR$/js/Class.js" />
         <option value="$PROJECT_DIR$/arguments.html" />
+        <option value="$PROJECT_DIR$/js/Class.js" />
+        <option value="$PROJECT_DIR$/constructor.html" />
+        <option value="$PROJECT_DIR$/prototype.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="338" />
-    <option name="y" value="120" />
+    <option name="x" value="534" />
+    <option name="y" value="246" />
     <option name="width" value="1303" />
-    <option name="height" value="847" />
+    <option name="height" value="783" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -177,14 +213,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="338" y="120" width="1303" height="847" extended-state="0" />
+    <frame x="534" y="246" width="1303" height="783" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37192705" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37192705" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -246,35 +282,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/inherit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="29" selection-start="660" selection-end="660" vertical-scroll-proportion="0.060606062" vertical-offset="475" max-vertical-offset="1102">
+        <state line="46" column="0" selection-start="1060" selection-end="1060" vertical-scroll-proportion="-17.285715" vertical-offset="390" max-vertical-offset="1102">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/Class.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="16" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prototype.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="19" selection-start="49" selection-end="49" vertical-scroll-proportion="0.09090909" vertical-offset="0" max-vertical-offset="627">
+        <state line="51" column="0" selection-start="1059" selection-end="1059" vertical-scroll-proportion="0.0" vertical-offset="542" max-vertical-offset="1444">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/constructor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="9" selection-start="210" selection-end="210" vertical-scroll-proportion="0.36363637" vertical-offset="0" max-vertical-offset="627">
+        <state line="22" column="7" selection-start="439" selection-end="439" vertical-scroll-proportion="-14.928572" vertical-offset="0" max-vertical-offset="532">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/arguments.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="36" selection-start="193" selection-end="193" vertical-scroll-proportion="0.24242425" vertical-offset="0" max-vertical-offset="627">
+        <state line="18" column="25" selection-start="429" selection-end="429" vertical-scroll-proportion="-10.178572" vertical-offset="57" max-vertical-offset="798">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototype.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="23" selection-start="1077" selection-end="1077" vertical-scroll-proportion="0.63809526" vertical-offset="444" max-vertical-offset="1026">
           <folding />
         </state>
       </provider>
