@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript">
+        function Father(msg)
+        {
+            this.msg = msg;
+            this.showMsg = function()
+            {
+                    alert(arguments.callee);
+            }
+        }
+
+        function Son() {};
+
+        var father = new Father("msg");
+        Son.prototype = father;
+        var son = new Son();
+        son.showMsg();
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

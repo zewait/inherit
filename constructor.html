@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript">
+        function Test()
+        {
+            alert("aaa");
+        }
+        Test.say = function()
+        {
+            alert("bbb");
+        }
+        var test = new Test();
+        alert(Test.prototype.constructor==test.constructor);
+        alert(Test.toString());
+    </script>
+</body>
+</html>

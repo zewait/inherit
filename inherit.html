@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript" src="js/Class.js"></script>
+    <script type="text/javascript">
+        var Father = Class.extend
+        ({
+            init: function()
+            {
+                alert("Father init");
+            },
+            say: function()
+            {
+                alert("father");
+            }
+        });
+        var Son = Father.extend
+        ({
+            init: function()
+            {
+                this._super();
+                alert("Son init");
+            },
+            say: function()
+            {
+                this._super();
+                alert("son");
+            }
+         });
+
+        var Grandson = Son.extend
+        ({
+            init: function()
+            {
+                this._super();
+                alert("Grandson init");
+            },
+            say: function()
+            {
+                this._super();
+                alert("grandson");
+            }
+        });
+        var grandson = new Grandson();
+        grandson.say();
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
